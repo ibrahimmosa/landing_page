@@ -1,0 +1,274 @@
+<html lang="en">
+<head>
+  <title>rinafashion.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://stag.rinafashion.com/pub/static/version1532974249/frontend/Pearl/weltpixel_custom/ar_SA/css/styles-l.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+      @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+    main.page-main{
+            padding: 0px!important;
+    }
+    p.toptext{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+            margin-top: 12%!important;
+    }
+    p.topbu {
+        color: #797D86;
+        text-align: center;
+        font-size: 13px;
+        line-height: 11px;
+    }
+    p.topbup {
+        color: #797D86;
+        text-align: center;
+        font-size: 11px;
+        font-weight: bold;
+        line-height: 10px;
+    }
+    p.topbu a {
+        color: #797D86;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 5px;
+        text-decoration: underline;        
+    }
+    p.topcen{
+        color: #CEFB06;
+        text-align: center;
+        font-size: 55px;
+        font-weight: bold;
+        line-height: 45px;
+        margin-bottom: 8%;
+    }
+    div.colw{
+        padding: 0 0 0 0;
+        
+    }
+    .theme-pearl.store-view-ar .block .block-content .products-grid button, .theme-pearl.store-view-ar button{
+         color: #20292E;
+         font-weight: bold;
+         background-color: #CEFB06!important;
+         
+    }
+    button.btn.submet.btn-default{
+        color: #20292E;
+         font-weight: bold;
+         background-color: #CEFB06!important;
+         
+    }
+	
+	.fashi{
+    position: relative;
+    float: left;
+    width:  100%;
+    height: 100%; 
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+.col-sm-5{
+	height: 100%;
+}
+
+.container{
+width: 100% !important;
+margin-top: 5%;
+}
+button{
+	
+}
+.socialTMaj{
+	margin: auto;
+      width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+form.form-inline{
+        text-align: center;
+}
+p.lang{
+    text-align: right;
+    color: white;
+    width: 86%;
+    margin-top: 4%;
+}
+a.lng{
+    color: white;
+    
+}
+p.image{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+@media only screen and (max-width: 768px) {
+    .col-sm-5{
+    width: 100%;
+    }
+    p.image{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+div.newcol{
+   /* display: none;*/
+}
+div.colw {
+    margin-top: -2% !important;
+    width: 100%; 
+    height: auto;
+}
+p.topbu {
+    color: #797D86;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+button.btn.submet.btn-default{
+    width: 100%;
+}
+
+}
+/*p:nth-child(1) { 
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+}*/
+</style>
+</head>
+<body style="    font-family: 'Droid Arabic Kufi', serif!important;">
+      <script>
+function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+};
+var number = getUrlParameter('value');
+     if(number==1){
+         var yy = document.getElementById("msg1");
+	  yy.style.display=('block');
+     }else if (number==2) {
+          var yy = document.getElementById("msg2");
+	  yy.style.display=('block');
+	}else if (number==3) {
+              var yy = document.getElementById("msg3");
+	  yy.style.display=('block');
+	}else if (number==4) {
+              var yy = document.getElementById("msg4");
+	  yy.style.display=('block');
+	}
+
+    </script>
+
+<div class="col-sm-12 colw">
+    <div class="col-sm-5 colw" style="background-color: #20292E;    float: right;">
+        <p class="lang">
+       
+                        <a  class="lng" href="./landing_en.html">En</a> 
+        </p>
+        <p class="image">
+   
+            <img style="width: 100%" src="./image/BA-AR-logo-White.png">
+ 
+         </p>
+        <p class="toptext">سجل الان واحصل على</p>
+        <p class="topcen">خصم %20</p>
+        <p class="topbu">على تشكيلة خريف 2018 الجديدة في كافة</p>
+        <p class="topbu">فروعنا  في المملكة العربية السعودية</p>
+        <p class="topbu">وموقعنا الإلكتروني قريبا</p>
+<div class="container">
+
+    <form class="form-inline" method="Post" action="./sendsmsemail.php">
+        <input type="hidden" name="languagesw" value="ar">
+        <b style="color: red;display: none;margin-top: -3%;" id="msg1">شكرا لمشاركتك</b>
+        <b style="color: red;display: none;margin-top: -3%;" id="msg2">إن هذا الرقم غير صحيح</b>
+        <b style="color: red;display: none;margin-top: -3%;" id="msg3">إن هذا الرقم مسجل</b>
+        <b style="color: red;display: none;margin-top: -3%;" id="msg4">هذا ليس طلبًا صالحًا</b>
+    <div class="form-group">
+        <input type="tel" style="font-family: -webkit-pictograph;" class="form-control" id="phone" placeholder="رقم الهاتف" name="subscribephone" required>
+    </div>
+    <div class="form-group">
+      <input type="email" style="font-family: -webkit-pictograph;" class="form-control" id="email" placeholder="البريد الالكتروني" name="subscribeemail" required>  
+    </div> 
+      </br>
+      <div class="form-group" style="margin-top: 4%;margin-bottom: 5%;">
+    <button type="submit" class="btn submet btn-default">سجل الأن</button>
+    </div>
+  </form>
+</div>
+        
+        <p class="topbu" style="margin-top: 5%;"><a href="./locations.html">موقعنا</a></p>  
+        <p class="topbup">* إن اختيارك الاشتراك , يعني موافقتك على</p>
+        <p class="topbup">شروط الاستخدام وسياسة الخصوصية لمزيد من المعلومات الرجاء مراجعة <a target="_blank" href="./policy.html">سياسة الخصوصية</a></p>
+         <!--Social Media-->
+		 <div class="socialTMaj">
+                     <a class="social-icons si-borderless" href="https://www.facebook.com/theblueage/"> 
+                         <i class="foot-icon-facebook" style="margin: 0;">
+                             <img style="width: 5%" src="./image/FB.png" alt="facebook">
+                         </i> </a> 
+                     <a class="social-icons si-borderless" href="https://twitter.com/The_Blue_Age"> 
+                         <i class="foot-icon-twitter" style="margin: 0;">
+                             <img  style="width: 5%"src="./image/twitter.png" alt="twitter"></i>
+                     </a> <a class="social-icons si-borderless" href="https://www.instagram.com/theblueage/">
+                         <i class="foot-icon-instagram" style="margin: 0;">
+                             <img style="width: 5%" src="./image/insta.png" alt="instegram"></i>
+                     </a> <a class="social-icons si-borderless" href="https://www.youtube.com/channel/UCS8ggMdnrK-oisfxrqpK43Q">
+                         <i class="foot-icon-youtube" style="margin: 0;">
+                             <img style="width: 5%" src="./image/youtube.png" alt="youtube"></i> 
+                     </a> <a class="social-icons si-borderless" href="https://www.snapchat.com/add/theblueage"> 
+                         <i class="foot-icon-snapchat" style="margin: 0;">
+                             <img style="width: 5%" src="./image/snap.png" alt="snapchat"></i>
+                     </a>   </div>
+         <!--Social Media--> 
+    </div>
+         <div class="col-sm-7 colw newcol"style="background-color: #20292E">
+        <div class="fashi" style="background-image:url('./image/landing.jpg');"></div>
+    </div>
+    
+    
+</div>
+    <!-- Facebook Pixel Code -->
+
+<script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '2165144463722883');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src="https://www.facebook.com/tr?id=2165144463722883&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+</body>
